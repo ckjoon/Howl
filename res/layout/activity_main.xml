@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.musicapp.SplashFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        tools:layout="@layout/splash"/>
+    
+    <fragment
+        android:id="@+id/mapViewFragment"
+        android:name="com.example.musicapp.MapViewFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/mapview" />
+    
+    <fragment
+        android:id="@+id/tableViewFragment"
+        android:name="com.example.musicapp.TableViewFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/tableview" />
+
+    <fragment
+        android:id="@+id/userSettingsFragment"
+        android:name="com.facebook.widget.UserSettingsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+    
+</RelativeLayout>
